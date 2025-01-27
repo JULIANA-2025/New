@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> New - Conheça o site </title>
+        <body> 
+            <header> 
+                <nav>
+                    <ul>
+                        <li> <a href="Levelofstudy.html">Level of study</li>
+                        <li> <a href="Subjects.html">Subjects </li>
+                        <li> <a href="Exercises">Exercises</li>
+                        <li> <a href="Studytips">Study tips</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section>
+                <nav>
+                    <a href="#intro"> Introdução </a>
+                </nav>
+                <h2 id="intro"></h2>
+                
+                   
+            </section>
+            
+            <footer></footer>
