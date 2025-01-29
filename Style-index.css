@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+    body{
     font-family: "Raleway", serif;
     color: #000000;
-    background-color: #fff5ec;
+    background-color: #f5e6c4;
     font-weight: 300;
-}
-header{
-    background-color:linear-gradient(to right #663e09, #3a5e37);
+    text-align: center;}
 
-}
-header image{
+    header{
+    background-color:linear-gradient(to right #5a5a5a, #264e86);}
+
+    header image{
     width: 150px;
-    height: auto;
-}
+    height: auto;}
+
 /*Perguntar como que faz para colocar em todos*/
-nav a{
+    nav a{
     text-decoration: none;
-    color: #e76735;
+    color: #2f6131;
     font-weight:bold;
     font-size: 1rem;
-}
-main{
-    text-align: center;
-}
+    }
+
+    main{
+    text-align: center;}
+
 #frase-de-efeito{
-    color:#13cc2c;
+    color:#1e3a5f;
     font-weight:600;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    text shadow: 8px 0px 8px #13cc2c
+    text shadow: 8px 0px 3px #1e3a5f;
+    text-align: center;
 }
 h1{
-    color:aquamarine;
+    color: #7a1f2d;;
     font-size: 2rem;
+    text-align: center;
 }
+/*Perguntar como espaçar entre as linhas*/
