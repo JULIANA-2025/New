@@ -3,19 +3,19 @@
     <!--Esses dados só aparecerão quando você pesquisar o site, mas não nele-->
     <head>
         <title>New</title>
-        <meta name="description" content="This is a site was created for help your studies"
+        <meta name="description" content="This is a site was created for help your studies">
+        <link rel="stylesheet" href="Style-index.css">
     </head>
     <!--Esses dados aparecerão no site-->
     <body>
         <header> 
             <h1>New</h1> 
-            <p><small>"Study hard what interests you the most in the most undisciplined, irreverent and original manner possible" -Richard Feynman</small>
+            <p id="frase-de-efeito">"Study hard what interests you the most in the most undisciplined, irreverent and original manner possible" -Richard Feynman></p>
             <p>This website aims to help people to study and learn more about subjects they are curious about.</p>
-            <p> Browse the site </p>
+            <p> Browse the site W</p>
             <nav>
                 <ul>
                     <li> <a href="Levelofstudy.html">Level of study</li>
-                    <li> <a href="Subjects.html">Subjects </li>
                     <li> <a href="Exercises.html">Exercises</li>
                     <li> <a href="Studytips.html">Study tips</a></li>
                 </ul>
@@ -25,31 +25,36 @@
         <main>
             <!--Asection serve para inserir as informações na página principal em forma de bloco-->
             <section>
-               
+
+            <div class="main-container">  
                
             <!--A div são as partes em si, são os blocos menores. Não possuem h1!!!-->   
             <!--div do nível de formação-->
-            <div>
+            <div class="main-block">
                     <h3>Find tour academic background</h3>
                     <a href="Levelofstudy.html">Your level of study</a>
             </div>
 
             <!--div pra procurar a matéria-->
-            <div>
+            <div class="main-block">
                     <h3>Por qual matéria está procurando?</h3>
                     <a href="Subjects.html">Subjects</a>
             </div>
 
             <!--div para exercícios-->
-            <div>
+            <div class="main-block">
                 <h3>Practice Exercises</h3>
-                <a href="Exercises">Exercises</a>
+                <a href="Exercises.html">Exercises</a>
             </div>
+            </div class="main-container">
             </section>
-            
+
+            <!--pergutar a id-->
+            <p id="topo"><a href="#">Voltar para o topo</a></p> 
         </main>
+        
         <footer>
-            <p>""The important thing is not to stop questioning. The curiosity has its own reason to exist" - Albert Einstei</p>
+            <p id="frase-de-efeito">"The important thing is not to stop questioning. The curiosity has its own reason to exist" - Albert Einstei</p>
             <small>&copy;2025 </small>
         </footer>
     </body>

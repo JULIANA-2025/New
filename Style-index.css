@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway", serif;
+    color: #000000;
+    background-color: #fff5ec;
+    font-weight: 300;
+}
+header{
+    background-color:linear-gradient(to right #663e09, #3a5e37);
+
+}
+header image{
+    width: 150px;
+    height: auto;
+}
+/*Perguntar como que faz para colocar em todos*/
+nav a{
+    text-decoration: none;
+    color: #e76735;
+    font-weight:bold;
+    font-size: 1rem;
+}
+main{
+    text-align: center;
+}
+#frase-de-efeito{
+    color:#13cc2c;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text shadow: 8px 0px 8px #13cc2c
+}
+h1{
+    color:aquamarine;
+    font-size: 2rem;
+}
