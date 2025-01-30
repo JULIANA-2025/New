@@ -7,30 +7,31 @@
     font-weight: 300;
     text-align: center;}
 
-    header{
-    background-color:linear-gradient(to right #5a5a5a, #264e86);}
-
-    header image{
-    width: 150px;
-    height: auto;}
-
-/*Perguntar como que faz para colocar em todos*/
+    
+/*Menu de navegação*/
     nav a{
+    margin: 0px 20px;
     text-decoration: none;
     color: #2f6131;
     font-weight:bold;
     font-size: 1rem;
-    }
+    position: relative;}
+
+/*Perguntar nav a hover*/
+    nav a:hover{
+        color: #f74b17;}
 
     main{
-    text-align: center;}
+    text-align: center;
+    padding: 20px;}
+
 
 #frase-de-efeito{
     color:#1e3a5f;
     font-weight:600;
     font-size: 1.1rem;
     letter-spacing: 1px;
-    text shadow: 8px 0px 3px #1e3a5f;
+    text-shadow: 8px 0px 3px #1e3a5f;
     text-align: center;
 }
 h1{
@@ -38,4 +39,80 @@ h1{
     font-size: 2rem;
     text-align: center;
 }
-/*Perguntar como espaçar entre as linhas*/
+.main-container{
+    display:flex;   
+}
+
+.main-block{
+    background-color: #264e86;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(17,43,15,0, 267);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.main-block a{
+    color:#f5e6c4;
+    background-color:#162c4b;
+    text-decoration: none;
+    padding: 5px 12px;
+    max-width: 150px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+header{
+    background: linear-gradient(to right, #5a5a5a, #7a1f2d);
+    padding: 20px 0;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(17,43,15,0, 267);
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-container h2{
+    color:#f717c7;
+}
+.main-container p{
+    color:aqua;
+    padding: 5px;
+    font-weight:500;
+}
+
+#topo{
+    padding-top: 30px;}
+
+#topo a{
+
+    text-decoration: none;
+    color:#f5e6c4;
+}
+#topo a:hover{
+    color:aqua;
+}
+footer{
+    background-color:#7a1f2d;
+    color:#f5e6c4;
+    text-align: center;
+    padding: 20px;
+}
+/*quando colocar a imagem
+figure img{
+width: 550;
+height: auto;
+border-radius: ;*/

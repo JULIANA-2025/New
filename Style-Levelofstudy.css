@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body{
+    font-family: "Raleway", serif;
+    color: #000000;
+    background-color: #f5e6c4;
+    font-weight: 300;
+    text-align: center;}
+
+    header{
+    background-color:linear-gradient(to right #5a5a5a, #264e86);
+    padding: 20px 0px 20px 0px;}
+/*peguntar margin-botton*/
+    header image{
+    width: 150px;
+    height: auto;
+    magin-botton: 20px;}
+
+/*Menu de navegação*/
+    nav a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #2f6131;
+    font-weight:bold;
+    font-size: 1rem;
+    position: relative;}
+
+/*Perguntar nav a houver*/
+    nav a:hover{
+        color: #f74b17;}
+
+    main{
+    text-align: center;
+    padding: 20px;}
+
+
+#frase-de-efeito{
+    color:#1e3a5f;
+    font-weight:600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text shadow: 8px 0px 3px #1e3a5f;
+    text-align: center;
+}
+h1{
+    color: #7a1f2d;;
+    font-size: 2rem;
+    text-align: center;
+}
+#topo{
+    padding-top: 30px;}
+
+#topo a{
+
+    text-decoration: none;
+    color:#f5e6c4;
+}
+#topo a:hover{
+    color:aqua;
+}
+footer{
+    background-color:#7a1f2d;
+    color:#f5e6c4;
+    text-align: center;
+    padding: 20px;
+}

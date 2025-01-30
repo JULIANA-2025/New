@@ -1,0 +1,17 @@
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: brown;
+    color:black;
+    padding: 0.6rem;
+}
+td{
+    background-color: aqua;
+    color:black;
+}
