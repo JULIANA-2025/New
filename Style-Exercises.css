@@ -7,19 +7,9 @@
     font-weight: 300;
     text-align: left;}
 
-    
-/*Menu de navegação*/
-    nav a{
-    margin: 0px 20px;
-    text-decoration: none;
-    color: #2f6131;
-    font-weight:bold;
-    font-size: 1rem;
-    position: relative;}
-
 /*Perguntar nav a hover*/
     nav a:hover{
-        color: #f74b17;}
+        color: #f5e6c4;}
 
     main{
     text-align: center;
@@ -104,8 +94,8 @@ header{
     color:#a7c7e7;
 }
 footer{
-    background-color:#7a1f2d;
+    background-color:#06032c;
     color:#f5e6c4;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
