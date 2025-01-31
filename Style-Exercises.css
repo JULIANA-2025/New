@@ -32,25 +32,26 @@ h1{
 .main-container{
     display:flex;   
 }
-
+/*Perguntar porque não está mudando de cor, e ver como diminui o espaçamento*/
 .main-block{
-    background-color: #264e865d;
-    gap: 40px;
+    background-color: #f5e6c4;
+    gap: 3px;
     max-width: 300px;
     margin: 0 auto;
     flex-wrap: wrap;
-    border-radius: 30px;
+    border-radius: 3px;
     box-shadow: 0px 3px 3px rgba(17,43,15,0, 267);
     display: flex;
     flex-direction: column;
     flex: 1 1 200px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 3px;
+    color:#000000
 }
 .main-block a{
-    color:#f5e6c4;
-    background-color:#162c4b5b;
+    color:#000000;
+    background-color:#f5e6c4;
     text-decoration: none;
     padding: 5px 5px;
     max-width: 150px;
@@ -83,7 +84,7 @@ header{
 }
 
 #topo{
-    padding-top: 30px;}
+    padding-top: 5px;}
 
 #topo a{
 
@@ -97,5 +98,5 @@ footer{
     background-color:#06032c;
     color:#f5e6c4;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
