@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-    body{
+body{
     font-family: "Raleway", serif;
     color: #000000;
     background-color: #e6d5b8;
     font-weight: 300;
-    text-align: center;}
-
-    
+    text-align: center;
+    } 
 /*Menu de navegação*/
-    nav a{
+nav a{
     margin: 0px 20px;
     text-decoration: none;
     color: #2f6131;
     font-weight:bold;
     font-size: 1rem;
-    position: relative;}
-
-    nav a:hover{
+    position: relative;
+    }
+nav a:hover{
         color: #f2e6ce;}
 
     main{
@@ -129,5 +128,7 @@ figure img{
     border-radius: 5;
 }
 nav a:hover{
-color: #e0871a;
+color: #f2e6ce
+       #e0871a;
+text-decoration: none;
 }
