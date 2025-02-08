@@ -18,7 +18,7 @@
     position: center;}
 
     nav a:hover{
-        color: #e0871a;}
+        color: #f2e6ce;}
 
     main{
     text-align: center;
@@ -57,8 +57,9 @@ h1{
     align-items: center;
     padding: 10px;
 }
+/*acho que da pra tirar esse main-block a*/
 .main-block a{
-    color:#f5e6c4;
+    color:#06032c;
     background:#162c4b5b;
     text-decoration: none;
     padding: 5px 5px;
