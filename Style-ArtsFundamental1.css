@@ -18,7 +18,7 @@
     position: relative;}
 
     nav a:hover{
-        color: #06032c;}
+        color: #f5e1c8;}
 
     main{
     text-align: center;
@@ -60,9 +60,12 @@ h1{
     text-decoration:none;
 }
 a:-webkit-any-link {
-    color:#f5e1c8;
+    color:#2f6131;
     cursor: pointer;
     text-decoration: none;
+}
+a:-webkit-any-link-hover {
+    color: #f5e1c8;
 }
 header{
     background: linear-gradient(to right, #a7c796, #a7c7e7);
@@ -123,7 +126,4 @@ figure img{
     max-width:100%;
     heigth:auto;
     border-radius: 5;
-}
-nav a:hover{
-color: #e0871a;
 }
