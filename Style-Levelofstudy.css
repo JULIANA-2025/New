@@ -5,12 +5,13 @@
     color: #000000;
     background-color: #f5e6c4;
     font-weight: 600;
-    text-align: center;}
-
-    
+    text-align: center;
+}
+ 
 /*Menu de navegação*/
     nav a{
-    margin: 0px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     color: #2f6131;
     font-weight:bold;
@@ -18,8 +19,9 @@
     position: center;}
 
     nav a:hover{
-        color: #f2e6ce;}
-
+        color: #06032c;
+    }
+      
     main{
     text-align: center;
     padding: 20px;}
